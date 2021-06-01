@@ -2,11 +2,6 @@ import os
 import sys
 
 
-# def description(name, age):
-name = "name"
-age = "age"
-
-
 def main():
     name = input("name: ")
     age = int(input("age: "))

@@ -4,6 +4,8 @@ import math
 
 
 def calculate(a, b, c):
+    if (b ** 2 - 4 * a * c) < 0:
+        return None, None
     x1 = (2 * c) / (-b + math.sqrt(b ** 2 - 4 * a * c))
     x2 = (2 * c) / (-b + math.sqrt(b ** 2 - 4 * a * c))
     return x1, x2

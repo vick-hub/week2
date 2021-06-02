@@ -2,11 +2,6 @@ import os
 import sys
 
 
-def calculate():
-
-    return
-
-
 def main():
     name = input("name: ")
     age = int(input("age: "))

@@ -8,7 +8,7 @@ def calculate(a, b, c):
     if discriminant < 0:
         return None, None
     x1 = (2 * c) / (-b + math.sqrt(discriminant))
-    x2 = (2 * c) / (-b + math.sqrt(discriminant))
+    x2 = (2 * c) / (-b + math.sqrt(discriminant)) # fix
     return x1, x2
 
 

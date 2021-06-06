@@ -6,6 +6,8 @@ import math
 def calculate(a, b, c):
     discriminant = b ** 2 - 4 * a * c
     if discriminant < 0:
+        # good attempt but incorrect
+        # test your answers at https://www.calculatorsoup.com/calculators/algebra/quadratic-formula-calculator.php
         return complex(-b, -discriminant), complex(-b, discriminant)
     x1 = (-b + math.sqrt(discriminant)) / (2 * a)
     x2 = (-b - math.sqrt(discriminant)) / (2 * a)

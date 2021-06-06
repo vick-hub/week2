@@ -1,6 +1,6 @@
 problem/score
 0/10
-1/8
+1/10
 2/10
 3/10
 4/5
@@ -9,4 +9,4 @@ problem/score
 7/5
 8/7
 9/0
-Total/75
+Total/77
